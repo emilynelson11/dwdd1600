@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Emily Nelson">
+    <meta name="description" content="Explore popular wedding color palettes to inspire your big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="wedding.css">
+    <title>The dream "I Do" - Style Guide</title>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <!-- start the page head -->
+        <header>
+            <span>The dream "I Do"</span>
+        </header>
+
+        <!-- start the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Color Palettes</a></li>
+                <li><a href="dresses.html">Dress Styles</a></li>
+                <li><a href="rings.html">Ring Styles</a></li>
+                <li class="active"><a href="guide.html">Style Guide</a></li>
+            </ul>
+        </nav>
+
+        <!-- start the main content -->
+        <main>
+            <h1>Curate Your Style</h1>
+
+            <form method="get" class="myForm" action="thanks.html">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Email*<input type="email" name="email" required placeholder="you@example.com"></label>
+                    <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Favorite Color Palette</legend>
+                    <label><input type="radio" name="method" value="pastels">Rainbow Pastels</label>
+                    <label><input type="radio" name="method" value="blush">Blush & Sage</label>
+                    <label><input type="radio" name="method" value="green">Shades of Green</label>
+                    <label><input type="radio" name="method" value="blackandwhite">Black & White</label>
+                    <label><input type="radio" name="method" value="blue">Shades of Blue</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Favorite Ring Cuts</legend>
+                    <label><input type="checkbox" name="oval" value="chosen">Oval Cut</label>
+                    <label><input type="checkbox" name="round" value="chosen">Round Cut</label>
+                    <label><input type="checkbox" name="princess" value="chosen">Princess Cut</label>
+                    <label><input type="checkbox" name="pear" value="chosen">Pear Cut</label>
+                    <label><input type="checkbox" name="marquis" value="chosen">Marquis Cut</label>
+                    <label><input type="checkbox" name="emerald" value="chosen">Emerald Cut</label>
+                  </fieldset>
+
+                  <fieldset>
+                <legend>Favorite Dress Styles</legend>
+                    <label><input type="checkbox" name="aline" value="chosen">A-Line Silhouette</label>
+                    <label><input type="checkbox" name="mermaid" value="chosen">Mermaid & Trumpet</label>
+                    <label><input type="checkbox" name="corset" value="chosen">Corset Bodices</label>
+                    <label><input type="checkbox" name="basque" value="chosen">Basque & Drop Waist</label>
+                    <label><input type="checkbox" name="square" value="chosen">Square Necklines</label>
+
+                    <label>Preferred Fabric Type
+                    <select name="fabric">
+                    <option value="none">Please Select</option>
+                    <option value="silk">Silk Satin</option>
+                    <option value="crepe">Crepe</option>
+                    <option value="tulle">Tulle</option>
+                    <option value="lace">Lace</option>
+                    <option value="organza">Organza</option>
+                    </select>
+                    </label>
+                  </fieldset>
+
+                  <label>Comments
+                    <textarea name="comments" placeholder="Describe your dream wedding..."></textarea>
+                  </label>
+
+                <input type="submit" value="Add My Style">
+            </form>
+
+        </main>
+    </div>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2025 &bull; Emily Nelson &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
